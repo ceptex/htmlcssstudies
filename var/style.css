@@ -2,7 +2,7 @@
   --bg-color: #fff;
   --bg-second: #ccc;
   --font-color: #ff0000;
-  --font-size: 25px
+  --font-size: 25px;
 }
 
 body {
@@ -19,12 +19,12 @@ h1 {
 .container {
   /*--verde: #0f0; it's possible to create variables inside elements, but they're only usable inside that same element, unlike creating :root */
   background-color: var(--bg-second);
-  /*color: var(--verde);8*/
+  /*color: var(--verde);*/
   color: var(--font-color);
 }
 
 @media (max-width: 450px) {
-    :root {
-        --font-size: 15px;
-    }
+  :root {
+    --font-size: 15px;
+  }
 }
