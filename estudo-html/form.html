@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Register Form</h1>
+
+    <form method="POST" action="test.php" enctype="multipart/form-data">
+      <input type="hidden" name="country" value="BR" /><!-- testing hidden fields -->
+      
+      <fieldset>
+        <legend>Personal Info:</legend>
+        <label>
+          First Name:<br />
+          <input type="text" name="name" required minlength="2" />
+        </label>
+        <br />
+        <label>
+          Last Name:<br />
+          <input type="text" name="lastname" minlength="2" />
+        </label>
+        <br />
+        <label>
+          Avatar:<br />
+          <input type="file" name="avatar" accept="image/*" />
+        </label>
+        <br />
+        <label>
+          E-mail:<br />
+          <input
+            type="text"
+            name="email"
+            required
+            minlength="2"
+            pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)"
+            title="example: name@email.com"
+          />
+        </label>
+        <br />
+        <label>
+          Birthday:<br />
+          <input
+            type="date"
+            name="birthdate"
+            min="1902-01-01"
+            max="2004-01-01"
+            required
+          />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Professional Info:</legend>
+        <label>
+          Company name:<br />
+          <input type="text" name="companyname" required minlength="2" />
+        </label>
+        <br />
+        <label>
+          Job title:<br />
+          <input type="text" name="companyjobtitle" required minlength="2" />
+        </label>
+      </fieldset>
+
+      <input type="submit" value="Submit" class="submitb" />
+    </form>
+  </body>
+</html>

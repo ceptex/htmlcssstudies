@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+  font-size: 15px;
+  color: blue;
+}
+
+h1 {
+  font-size: 30px;
+  color: red;
+}
+
+.box h1 {
+  font-size: inherit;
+  color: inherit;
+}
+
+/* .box-interno {
+    width: 10em;
+    height: 10em;
+    background-color: #999;
+} */
+
+/* .container {
+    width: calc(100% - 20px);
+    height: 200px;
+    background-color: #ccc;
+    color: red;
+    border: 2px solid green; in general, structure params do not get inherited.
+}
+
+.container strong {
+    color: #0000FF;
+} */
