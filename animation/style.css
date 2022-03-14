@@ -5,36 +5,39 @@
     left: 0;
   }
   25% {
-    background-color: yellow;
+    background-color: rgb(124, 124, 61);
     top: 0;
     left: 200px;
-    width: 300px;
-    height: 150px;
+    width: 400px;
+    height: 200px;
+    line-height: 200px;
     transform: rotate(90deg);
   }
   50% {
     background-color: blue;
     top: 200px;
     left: 200px;
-    width: 300px;
-    height: 300px;
-    transform: rotate(180deg)
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    transform: rotate(180deg);
   }
   75% {
     background-color: green;
     top: 200px;
     left: 0;
-    width: 150px;
-    height: 300px;
-    transform: rotate(90deg)
+    width: 200px;
+    height: 400px;
+    line-height: 400px;
+    transform: rotate(90deg);
   }
   100% {
     background-color: red;
     top: 0;
     left: 0;
-    width: 150px;
-    height: 150px;
-    transform: rotate(0deg)
+    width: 200px;
+    height: 200px;
+    transform: rotate(0deg);
   }
 }
 
@@ -43,8 +46,9 @@ body {
 }
 
 .example {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
   background-color: red;
   position: absolute;
   margin: 50px;
@@ -52,5 +56,18 @@ body {
   animation-duration: 4s;
   animation-delay: 2s;
   animation-iteration-count: infinite;
-  transition: all 1s linear;
+}
+
+.link {
+  font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+.link:hover {
+  color: cadetblue;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: wavy;
 }
