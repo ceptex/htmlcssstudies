@@ -1,9 +1,41 @@
 @keyframes example {
-  0% {background-color: red; top: 0; left: 0;}
-  25% {background-color: yellow; top: 0; left: 200px;}
-  50% {background-color: blue; top: 200px; left: 200px;}
-  75% {background-color: green; top:200px; left: 0;}
-  100% {background-color: red; top: 0; left: 0;}
+  0% {
+    background-color: red;
+    top: 0;
+    left: 0;
+  }
+  25% {
+    background-color: yellow;
+    top: 0;
+    left: 200px;
+    width: 300px;
+    height: 150px;
+    transform: rotate(90deg);
+  }
+  50% {
+    background-color: blue;
+    top: 200px;
+    left: 200px;
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg)
+  }
+  75% {
+    background-color: green;
+    top: 200px;
+    left: 0;
+    width: 150px;
+    height: 300px;
+    transform: rotate(90deg)
+  }
+  100% {
+    background-color: red;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    transform: rotate(0deg)
+  }
 }
 
 body {
@@ -15,8 +47,10 @@ body {
   height: 150px;
   background-color: red;
   position: absolute;
+  margin: 50px;
   animation-name: example;
   animation-duration: 4s;
   animation-delay: 2s;
   animation-iteration-count: infinite;
+  transition: all 1s linear;
 }
