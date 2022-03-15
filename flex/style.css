@@ -74,3 +74,8 @@ body {
   padding: 5px;
   margin: 10px;
 }
+
+.div22 {
+  align-self: flex-start; /* used to override container atributes */
+  order: 1; /*by default everything is "order: 0" so incrementing the number will put that element after (or before, using "-1") */
+}
