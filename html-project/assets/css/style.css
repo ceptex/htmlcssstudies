@@ -5,7 +5,6 @@
 body {
   margin: 0;
   padding: 0;
-  padding-bottom: 300px;
 }
 
 /* Menu */
@@ -147,13 +146,13 @@ nav a:hover {
 .button1:hover {
   background-color: #ffffff;
   color: #36a9e1;
-  transition: all 0.3s;
+  transition: 0.3s;
 }
 
 .button2:hover {
   background-color: #ffffff;
   color: #0079c7;
-  transition: all 0.3s;
+  transition: 0.3s;
 }
 
 .hours1,
@@ -204,6 +203,8 @@ p {
   background-color: #36a9e1;
   margin-top: 10px;
 }
+
+/* Article Section */
 
 .flex {
   display: flex;
@@ -260,4 +261,118 @@ article a {
   line-height: 20px;
   font-size: 14px;
   margin-bottom: 30px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_menu {
+  display: flex;
+}
+
+.footer_menu a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.fm_1,
+.fm_2,
+.fm_3 {
+  flex: 1;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 21px;
+}
+
+.fm_1 {
+  background-color: #39aae1;
+}
+
+.fm_2 {
+  background-color: #0079c7;
+}
+
+.fm_3 {
+  background-color: #2b4c99;
+}
+
+.footer_area {
+  display: flex;
+}
+
+.footer_areaitem {
+  color: #ffffff;
+  flex: 1;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+footer .widget_title_text {
+  color: #ffffff;
+}
+
+.footer_latest {
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+
+footer .widget_footer {
+  font-size: 12px;
+  margin-right: 5px;
+  color: #ffffff;
+}
+
+footer .year {
+  color: #36a9e1;
+  font-size: 12px;
+  margin-bottom: 20px;
+  margin-top: 3px;
+}
+
+footer .widget_body {
+  font-size: 12px;
+  margin-right: 5px;
+  color: #9d9d9d;
+}
+
+.address {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-right: 20px;
+  color: #9d9d9d;
+}
+
+email {
+  color: #ffffff;
+}
+
+.footer_copy {
+  border-top: 1px solid #2c2c2c;
+  height: 40px;
+  line-height: 40px;
+  color: #8d8d8d;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.tweet {
+  font-size: 12px;
+  color: #9d9d9d;
 }
