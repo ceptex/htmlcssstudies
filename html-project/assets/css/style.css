@@ -319,9 +319,26 @@ footer .widget_title_text {
   color: #ffffff;
 }
 
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  max-width: 150px;
+}
+
+.social_icon {
+  max-width: 25px;
+  padding: 5px;
+}
+
+.social_icon_tw {
+  max-width: 28px;
+  padding: 5px;
+}
+
 .footer_latest {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .arrow {
@@ -332,7 +349,7 @@ footer .widget_title_text {
 
 footer .widget_footer {
   font-size: 12px;
-  margin-right: 5px;
+  margin-right: 10px;
   color: #ffffff;
 }
 
@@ -356,6 +373,10 @@ footer .widget_body {
   margin-top: 30px;
   margin-right: 20px;
   color: #9d9d9d;
+}
+
+.address a {
+  text-decoration: none;
 }
 
 email {
