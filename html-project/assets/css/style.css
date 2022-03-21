@@ -69,7 +69,7 @@ nav a:hover {
   background-image: url(../images/woman.jpg);
   background-position: center;
   background-size: cover;
-  height: 670px;
+  min-height: 670px;
 }
 
 .column {
@@ -452,6 +452,10 @@ email {
   nav ul {
     flex-direction: column;
     display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    left: 0;
   }
   header {
     height: auto;
@@ -463,5 +467,11 @@ email {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+  }
+}
+
+@media (min-width: 721px) {
+  nav ul {
+    display: flex !important;
   }
 }
