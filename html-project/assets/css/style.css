@@ -216,6 +216,60 @@ article {
   margin-right: 20px;
 }
 
+.departments {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ophthalmologist {
+  background-color: #39aae1;
+}
+
+.dermatology {
+  background-color: #2b4c99;
+}
+
+.cardiology {
+  background-color: #2789ca;
+}
+
+.geriatrics {
+  background-color: #39aae1;
+}
+
+.appointment {
+  display: flex;
+  flex-direction: column;
+  background-color: #2789ca;
+  padding: 10px 8px 10px 8px;
+  border-radius: 3px;
+  border: 1px solid #2789ca;
+}
+
+.appointment input {
+  margin: 3px;
+  border-radius: 3px;
+}
+
+.appointment label {
+  display: flex;
+  color: #ffffff;
+  margin-left: 3px;
+  font-size: 16px;
+}
+
+.appointment button {
+  border-radius: 3px;
+  background-color: #89bdd6;
+  color: #000000
+}
+
+.appointment button:hover {
+  background-color: #bdc8ce;
+  color: #000000;
+  transition: 0.3s;
+}
+
 article a {
   text-decoration: none;
 }
@@ -272,10 +326,10 @@ footer {
 
 .footer_menu {
   display: flex;
+  flex-direction: row;
 }
 
 .footer_menu a {
-  display: block;
   text-decoration: none;
   color: #ffffff;
 }
@@ -284,21 +338,37 @@ footer {
 .fm_2,
 .fm_3 {
   flex: 1;
-  color: #ffffff;
+  color: #ffffff !important;
   padding: 20px;
   font-size: 21px;
+  width: auto;
 }
 
 .fm_1 {
   background-color: #39aae1;
 }
 
+.fm_1:hover {
+  background-color: #63b8e2;
+  transition: 0.5s;
+}
+
 .fm_2 {
   background-color: #0079c7;
 }
 
+.fm_2:hover {
+  background-color: #2789ca;
+  transition: 0.5s;
+}
+
 .fm_3 {
   background-color: #2b4c99;
+}
+
+.fm_3:hover {
+  background-color: #3e5999;
+  transition: 0.5s;
 }
 
 .footer_area {

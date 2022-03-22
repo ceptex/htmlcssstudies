@@ -166,7 +166,12 @@
               <div class="widget_title_text">Departments</div>
               <div class="widget_title_bar"></div>
             </div>
-            <div class="widget_body">...</div>
+            <div class="widget_body departments">
+              <div class="ophthalmologist">...</div>
+              <div class="dermatology">...</div>
+              <div class="cardiology">...</div>
+              <div class="geriatrics">...</div>
+            </div>
           </div>
           <!-- Appointments -->
           <div class="widget">
@@ -174,7 +179,28 @@
               <div class="widget_title_text">Make An Appointment</div>
               <div class="widget_title_bar"></div>
             </div>
-            <div class="widget_body">...</div>
+            <div class="widget_body">
+              <form action="" method="post" class="appointment">
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" placeholder="Jane" required><br>
+
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" placeholder="Smith" required><br>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="email@email.com" required><br>
+
+                <label for="phone">Contact Number</label>
+                <input type="tel" name="phone" placeholder="(123) 555-5555"><br>
+
+                <label>Choose a date and time</label>
+                <input type="datetime-local"><br>
+                <button>Send</button>
+              </form>
+              <form action=""></form>
+              <form action=""></form>
+              <form action=""></form>
+            </div>
           </div>
         </aside>
       </div>
