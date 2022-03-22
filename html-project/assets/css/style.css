@@ -221,20 +221,75 @@ article {
   flex-wrap: wrap;
 }
 
-.ophthalmologist {
-  background-color: #39aae1;
+.departments a {
+  text-decoration: none;
 }
 
+.departments img {
+  display: flex;
+  max-width: 135px;
+  padding: 10px;
+}
+
+.ophthalmologist {
+  background-color: #39aae1;
+  max-width: 165px;
+  margin: 1px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 3px;
+}
+
+.ophthalmologist:hover {
+  background-color: #74b8da ;
+  transition: 0.3s;
+}
+
+
 .dermatology {
-  background-color: #2b4c99;
+  background-color: #2789ca;
+  max-width: 165px;
+  margin: 1px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 3px;
+}
+
+.dermatology:hover {
+  background-color: #74b8da ;
+  transition: 0.3s;
 }
 
 .cardiology {
   background-color: #2789ca;
+  max-width: 165px;
+  margin: 1px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 3px;
+}
+
+.cardiology:hover {
+  background-color: #74b8da ;
+  transition: 0.3s;
 }
 
 .geriatrics {
   background-color: #39aae1;
+  max-width: 165px;
+  margin: 1px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 3px;
+}
+
+.geriatrics:hover {
+  background-color: #74b8da ;
+  transition: 0.3s;
 }
 
 .appointment {
