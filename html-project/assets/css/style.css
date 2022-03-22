@@ -227,18 +227,20 @@ article {
 
 .departments img {
   display: flex;
-  max-width: 135px;
+  max-width: 137px;
   padding: 10px;
+  padding-top: 13px;
 }
 
 .ophthalmologist {
   background-color: #39aae1;
-  max-width: 165px;
+  max-width: 167px;
   margin: 1px;
   color: #ffffff;
   text-align: center;
   text-transform: capitalize;
   padding: 3px;
+  padding-top: 7px;
 }
 
 .ophthalmologist:hover {
@@ -249,12 +251,13 @@ article {
 
 .dermatology {
   background-color: #2789ca;
-  max-width: 165px;
+  max-width: 167px;
   margin: 1px;
   color: #ffffff;
   text-align: center;
   text-transform: capitalize;
   padding: 3px;
+  padding-top: 7px;
 }
 
 .dermatology:hover {
@@ -264,12 +267,13 @@ article {
 
 .cardiology {
   background-color: #2789ca;
-  max-width: 165px;
+  max-width: 167px;
   margin: 1px;
   color: #ffffff;
   text-align: center;
   text-transform: capitalize;
   padding: 3px;
+  padding-top: 7px;
 }
 
 .cardiology:hover {
@@ -279,12 +283,13 @@ article {
 
 .geriatrics {
   background-color: #39aae1;
-  max-width: 165px;
+  max-width: 167px;
   margin: 1px;
   color: #ffffff;
   text-align: center;
   text-transform: capitalize;
   padding: 3px;
+  padding-top: 7px;
 }
 
 .geriatrics:hover {
