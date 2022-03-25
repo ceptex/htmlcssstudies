@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b6a276;
+}
+
+/* NAV */
+header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* INTRO */
+.container {
+    margin: 70px 0px 20px;
+    padding: 16px 10px 12px;
+    display: block;
+    background-color: #fff;
+}
+
+.container h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+}
+
+.container h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.fig_container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #fff;
+    margin: auto;
+    max-width: 420px;
+    border-radius: 3px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7px;
+}
+
+figure img {
+    justify-content: center;
+    width: 400px;
+}
+
+/* TIMELINE */
+.timeline {
+    margin-top: 30px;
+}
+
+.early {
+    background-color: red;
+    height: 80px;
+}
+
+.thelema {
+    background-color: aqua;
+    height: 80px;
+}
+
+.later {
+    background-color: blueviolet;
+    height: 80px;
+}
+
+/* GALLERY */
+.gallery {
+    background-color: green;
+    height: 80px;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    height: 50px;
+    color: #fff;
+}
