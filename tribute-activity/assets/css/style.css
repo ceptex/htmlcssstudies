@@ -1,8 +1,20 @@
+@font-face {
+  font-family: "BisonBold";
+  src: url("../fonts/Bison-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BisonBold";
+  font-weight: bold;
+  src: url("../fonts/Bison-Bold.ttf") format("truetype");
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "BisonBold", Arial, Helvetica, sans-serif;
   background-color: #b6a276;
+  letter-spacing: 1.5px;
 }
 
 /* NAV */
@@ -11,10 +23,9 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  margin-bottom: 10px;
   background-color: black;
   color: #fff;
-  padding: 10px;
+  font-size: 30px;
 }
 
 header nav ul {
@@ -24,7 +35,7 @@ header nav ul {
 
 header nav ul li {
   list-style: none;
-  margin-right: 10px;
+  margin-right: 20px;
   text-transform: uppercase;
 }
 
@@ -33,10 +44,14 @@ header nav ul li a {
   color: inherit;
 }
 
+header nav ul li a:hover {
+  color: #9c6c0b !important;
+}
+
 /* INTRO */
 .container {
-  margin: 70px 0px 20px;
-  padding: 16px 10px 12px;
+  margin: 70px 0px 30px;
+  padding: 35px 10px 12px;
   display: block;
   background-color: #fff;
 }
@@ -51,13 +66,12 @@ header nav ul li a {
 .container h2 {
   margin: 0;
   text-align: center;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 25px;
 }
 
 .container p {
   text-align: center;
-  font-size: 12px;
+  font-size: 17px;
   margin-bottom: 20px;
 }
 
@@ -83,9 +97,16 @@ figure img {
   max-width: 400px;
 }
 
+.about-text h1 {
+  font-family: "BisonBold";
+  letter-spacing: 1.5px;
+}
+
 .about-text {
   background-color: #fff;
   padding: 2px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: normal;
 }
 
 .about-text a {
@@ -106,7 +127,7 @@ figure img {
   padding: 0;
   padding-bottom: 15px;
   border: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: inherit;
   vertical-align: baseline;
 }
 
@@ -122,7 +143,7 @@ figure img {
   padding: 5px;
   margin: 10px auto;
   width: 70%;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   text-align: left;
 }
@@ -135,17 +156,17 @@ figure img {
 
 /* GALLERY */
 .images {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 2px 10px;
-    background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 2px 10px;
+  background-color: #fff;
 }
 
 .thumbs {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .gallery {
@@ -166,22 +187,26 @@ figure img {
 
 /* FOOTER */
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   background-color: black;
-  height: 50px;
   color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #b39556;
 }
 
 /* RESPONSIVINESS */
 
 @media (max-width: 401px) {
-    .fig_container {
-      background-color: #b6a276;
-    }
-    figure img {
-      max-width: 55%;
-    }
+  .fig_container {
+    background-color: #b6a276;
   }
+  figure img {
+    max-width: 55%;
+  }
+}
