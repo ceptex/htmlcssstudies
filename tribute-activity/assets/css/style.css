@@ -142,7 +142,7 @@ figure img {
   display: block;
   padding: 5px;
   margin: 10px auto;
-  width: 70%;
+  width: 80%;
   font-size: 20px;
   font-weight: bold;
   text-align: left;
@@ -167,18 +167,18 @@ figure img {
 .thumbs {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   max-width: 370px;
 }
 
 .gallery:hover {
-  border: 1px solid #777;
-  max-width: 371px;
-  transition: 0.3s;
+  border: 2px solid #777;
+  transition: all 0.3s;
 }
 
 .gallery img {
@@ -202,11 +202,34 @@ footer a {
 
 /* RESPONSIVINESS */
 
+@media (max-width: 1206px) {
+    .timeline-content li {
+        line-height: 27px;
+        transition: all 0.3s;
+    }
+}
+
+@media (max-width: 988px) {
+    .timeline-content li {
+        line-height: 27px;
+        transition: all 0.3s;
+    }
+}
+
+@media (max-width: 1024px) {
+    .timeline-content li {
+        font-size: 18px;
+        width: 90%;
+        transition: all 0.3s;
+    }
+}
+
 @media (max-width: 401px) {
   .fig_container {
     background-color: #b6a276;
   }
   figure img {
-    max-width: 55%;
+    max-width: 65%;
+    transition: all 0.3s;
   }
 }
