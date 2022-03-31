@@ -1,17 +1,25 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
 }
 
 .heading {
     display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     height: 70px;
 }
 
 .logo img {
-    max-width: 177px;
-    margin: 8px 100px 15px 20px;
+    max-width: 155px;
+    margin: 10px 100px 15px 20px;
 }
 
 .menu {
@@ -20,7 +28,6 @@
 
 nav {
     display: flex;
-    align-items: center;
 }
 
 nav ul,
@@ -30,48 +37,82 @@ nav li {
 }
 
 nav ul {
-    margin-top: 15px;
-    margin-right: 15px;
+    margin-right: 100px;
 }
 
 nav li {
-    margin: 15px 20px;
+    margin: 15px 10px;
     padding: 5px;
     text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.m-user {
+    display: flex;
+    align-items: center;
 }
 
 .support,
 .search,
 .mprofile,
 .cart {
-    margin: 20px 5px;
-    padding: 3px;
+    margin-right: 5px;
 }
 
-.banner {
+.support {
+    margin-right: 16px;
+}
+
+.search img,
+.mprofile img,
+.cart img {
+    max-width: 17px;
+    margin-right: 15px;
+}
+
+.banner-takeover {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    display: block;
+    font-size: 10px;
+    letter-spacing: .02rem;
+    width: 100%;
+    box-shadow: 0 1px 0 #000;
+    box-sizing: border-box;
+}
+
+.banner-highlight {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-image: url(../images/banner-bg.jpg);
-    background-position: center;
+    background-position: center top;
     background-size: cover;
-    min-height: 300px;
+    max-height: 380px;
 }
 
 .banner-desc {
     display: flex;
-    margin: auto;
+    margin: 200px auto 100px;
     justify-content: center;
 }
 
 .banner-desc h1 {
+    padding-top: 80px;
     text-transform: uppercase;
-    font-weight: lighter;
+    font-weight: 600;
 }
 
 .products {
     display: flex;
+    box-sizing: border-box;
     justify-content: center;
+    margin-top: 100px;
+    margin: auto;
+    max-width: 500px;
 }
 
 .prod1,
@@ -79,12 +120,48 @@ nav li {
 .prod3,
 .prod4,
 .prod5 {
-    margin: 20px;
-    color: black;
+    align-items: center;
+    padding: 0 1rem;
+    width: 50vw;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
+
+.prod1 a,
+.prod2 a,
+.prod3 a,
+.prod4 a,
+.prod5 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.prod1 img,
+.prod2 img,
+.prod3 img,
+.prod4 img,
+.prod5 img {
+    max-width: 200px;
+}
+
+.prod-name {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    margin: 20px 0px;
+    letter-spacing: .05rem;
+    font-size: 1.5rem;
+}
+
+.prod-descr {
+    margin: 16px 0px;
+    text-align: center;
+    font-weight: 400;
 }
 
 main {
-    height: 500px;
+    height: 900px;
 }
 
 footer {
