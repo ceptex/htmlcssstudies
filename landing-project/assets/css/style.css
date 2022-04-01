@@ -44,13 +44,19 @@ nav {
 header nav .menu-items ul li {
     list-style: none;
     color: #fff;
-    padding: 13px;
+    padding: 15px;
     font-size: 14px;
 }
 
+header nav .menu-items ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
 header nav .menu-items ul li button {
+    width: 150px;
     padding: 8px 10px;
-    background-color: rgb(70, 92, 218);
+    background-color: rgb(25, 118, 210);
     border: none;
     border-radius: 4px;
     color: #fff;
@@ -60,7 +66,7 @@ header nav .menu-items ul li button {
 .intro {
     background-image: url(https://connect.garmin.com/static/home-hero-fc211b2682ef7711051791deb5e40f0b.jpg);
     background-size: cover;
-    height: calc(100vh - 50px);
+    height: calc(110vh - 50px);
 }
 
 .container {
@@ -117,4 +123,181 @@ header nav .menu-items ul li button {
 
 .intro-img img{
     width: 270px;
+}
+
+.explore {
+    top: 90vh;
+    flex: 0 1 100%;
+    width: 70%;
+    font-size: 21px;
+    text-align: center;
+    font-weight: normal;
+    margin: 40px;
+}
+
+.arrow {
+    border: solid black;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    border-width: 0 3px 3px 0;
+}
+
+.howto {
+    display: flex;
+    flex-direction: column;
+    background-color: #555;
+    align-items: center;
+}
+
+.howto h1 {
+    color: #fff;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.howto-opt {
+    display: flex;
+}
+
+.install,
+.workout,
+.progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    margin: 0px 30px;
+}
+
+.install h2,
+.workout h2,
+.progress h2 {
+    margin: 20px 0px 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+}
+
+.day-descrip {
+    display: flex;
+    flex-direction: column;
+    padding-top: 18%;
+}
+
+.day-descrip h1 {
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.day-descrip p {
+    font-size: 15px;
+    line-height: 23px;
+    width: 500px;
+}
+
+.day-img {
+    display: flex;
+}
+
+.c0144 {
+    display: flex;
+    width: 900px;
+    margin: 0 0 0 40px;
+}
+
+.break {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+}
+
+.results {
+    display: flex;
+    width: 100%;
+}
+
+.results-descrip {
+    display: flex;
+    flex-direction: column;
+    padding-top: 18%;
+}
+
+.results-descrip h1 {
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.results-descrip p {
+    font-size: 15px;
+    line-height: 23px;
+    width: 500px;
+}
+
+.results-descrip button {
+    margin-top: 15px;
+    background-color: rgb(25, 118, 210);
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+}
+
+.results-descrip button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.buy {
+    display: flex;
+    flex-direction: column;
+    background-color: #555;
+    color: #fff;
+}
+
+.buy-descrip {
+    width: 70%;
+    padding: 20px 0% 0% 15%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.buy-descrip h1 {
+    color: #fff;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.buy-descrip p {
+    color: #fff;
+}
+
+.buy-imgs img {
+    width: 100vw;
+}
+
+.buy-button {
+    display:inline-flexbox;
+
+}
+
+.buy-button button {
+    background-color: #1976d2;
+    color: #fff;
+    font-size: 16px;
+    height: 44px;
+    padding: 0 25px;
 }
