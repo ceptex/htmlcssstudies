@@ -37,14 +37,21 @@ header nav ul li {
 }
 
 .search input {
-    border: 0.5px solid rgb(95, 99, 104);
-    width: 550px;
-    padding: 13px;
-    border-radius: 25px;
-    color: #ccc;
-    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 20px;
+    margin: 0;
+    padding: 5px 15px;
+    color: #e8eaed;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 0px;
+    height: 34px;
     font-size: 16px;
-    background-color: rgb(32, 33, 36);
+    width: 35vw;
 }
 
 .buttons {
@@ -57,10 +64,14 @@ header nav ul li {
     margin-right: 12px;
     background-color: rgb(48, 49, 52);
     border: none;
-    color: #fff;
     padding: 10px 18px;
     border-radius: 4px;
     font-weight: 400;
+}
+
+.buttons button a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .note,
