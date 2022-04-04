@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(32, 33, 36);
+    color: #fff;
+}
+
+header {
+    margin-top: 20px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 95px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.search input {
+    border: 0.5px solid rgb(95, 99, 104);
+    width: 550px;
+    padding: 13px;
+    border-radius: 25px;
+    color: #ccc;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: rgb(32, 33, 36);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.buttons button {
+    margin-right: 12px;
+    background-color: rgb(48, 49, 52);
+    border: none;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.note,
+.language {
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+.note p {
+    font-size: 13px;
+}
+
+.note a,
+.language a {
+    text-decoration: none;
+    color: rgb(93, 166, 248);
+}
+
+.language {
+    margin-top: 37px;
+}
+
+.language p {
+    font-size: 13px;
+    color: rgb(201, 192, 192);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .country {
+    display: flex;
+    margin-bottom: 1px;
+    background-color: rgb(23, 23, 23);
+}
+
+footer .country h2 {
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(137, 155, 149);
+    padding: 15px 30px;
+}
+
+.fmenu {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(23, 23, 23);
+    padding: 0px 20px;
+}
+
+.footer-menu ul,
+.footer-menu2 ul {
+    display: flex;
+}
+
+.footer-menu ul li,
+.footer-menu2 ul li {
+    list-style: none;
+    padding: 15px;
+    font-size: 14px;
+    color: rgb(136, 157, 162);
+}
+
