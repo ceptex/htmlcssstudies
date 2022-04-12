@@ -7,6 +7,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HEADING */
+
 nav {
   height: 100px;
   width: 100%;
@@ -48,6 +50,8 @@ nav {
   line-height: 90px;
 }
 
+/* BANNER */
+
 .bg-highlight {
   background-image: url(../imgs/bg1-img.png);
   background-position: center;
@@ -69,7 +73,7 @@ nav {
 }
 
 .titles h1,
-h2 {
+.titles h2 {
   text-transform: uppercase;
   color: #fff;
 }
@@ -124,8 +128,10 @@ h2 {
   list-style: disc;
 }
 
+/* ABOUT US */
+
 .container {
-  margin-left: 250px;
+  margin-left: 125px;
   margin-right: 125px;
 }
 
@@ -157,12 +163,12 @@ h2 {
   display: flex;
   flex-direction: column;
   max-width: 800px;
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
 .about-descrip p {
-  line-height: 22px;
-  margin-bottom: 25px;
+  line-height: 23px;
+  margin: 0px 18px 25px 20px;
 }
 
 .about-btn {
@@ -175,6 +181,7 @@ h2 {
   border-radius: 20px;
   font-size: 14px;
   padding: 20px 5px;
+  margin: 0px 0px 25px 20px;
 }
 
 .about-btn a {
@@ -220,6 +227,8 @@ h2 {
   width: 445px;
 }
 
+/* SERVICES */
+
 .c-services {
   background-color: #000;
   display: flex;
@@ -244,9 +253,9 @@ h2 {
 }
 
 .s-titles h2 {
-    margin-top: 15px;
-    font-size: 16px;
-    color: #adadad;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #adadad;
 }
 
 .s-services {
@@ -265,19 +274,70 @@ h2 {
 }
 
 .offer img {
-    width: 60px;
-    margin-bottom: 30px;
+  width: 60px;
+  margin-bottom: 30px;
 }
 
 .offer h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 30px;
-    margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 .offer p {
-    text-align: center;
-    color: #adadad;
-    line-height: 20px;
+  text-align: center;
+  color: #adadad;
+  line-height: 20px;
+}
+
+/* PROJECTS */
+
+.projects-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.projects-titles h1, 
+.projects-titles h2 {
+  color: #000;
+  text-transform: uppercase;
+}
+
+.projects-titles h2 {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #adadad;
+}
+
+.projects-menu ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.projects-menu ul li {
+  list-style: none;
+  padding: 15px 20px;
+  border: solid 1px #adadad;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: #ededed;
+}
+
+.projects-menu ul li:nth-child(1) {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.projects-menu ul li:nth-last-child(1) {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-right: 40px;
+  padding-left: 20px;
 }
