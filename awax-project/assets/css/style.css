@@ -53,7 +53,7 @@ nav {
 /* BANNER */
 
 .bg-highlight {
-  background-image: url(../imgs/bg1-img.png);
+  background-image: url(../images/bg1-img.png);
   background-position: center;
   background-size: cover;
   height: 750px;
@@ -192,7 +192,7 @@ nav {
 }
 
 .about-video {
-  background: url(../imgs/foto6.jpg);
+  background: url(../media/foto6.jpg);
   background-position: top;
   background-size: cover;
   width: 500px;
@@ -380,7 +380,7 @@ nav {
 /* OUR TEAM */
 
 .bg-team {
-  background-image: url(../imgs/foto5.jpg);
+  background-image: url(../media/foto5.jpg);
   background-position: center;
   background-size: cover;
   height: 750px;
