@@ -54,21 +54,30 @@ nav {
 .menu li a:hover,
 .menu .active a {
   border-bottom: 5px solid #b28756;
+  color: #CCC;
 }
 
 /* BANNER */
 
-.bg-highlight {
+.banner {
   background-image: url(../images/bg1-img.png);
   background-position: center;
   background-size: cover;
-  height: 750px;
+  height: calc(100vh - 100px);
   display: flex;
+  overflow: hidden;
 }
 
-.bg-highlight .alpha {
-  background-color: rgba(0, 0, 0, 0.705);
-  width: 100%;
+.banner .sliders {
+  width: 300vw;
+  height: 100%;
+}
+
+.banner .slide { 
+  width: 100vw;
+  height: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .titles {
@@ -89,7 +98,7 @@ nav {
 }
 
 .titles span {
-  color: #b98b59;
+  color: #b28756;
 }
 
 .titles h2 {
@@ -112,7 +121,31 @@ nav {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.banner .sliders-pointers {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  position: absolute;
+  margin-bottom: 50px;
+}
+
+.banner .pointer {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #b28756;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.banner .pointer.active {
+  background-color: #b28756;
 }
 
 .slides ul {
